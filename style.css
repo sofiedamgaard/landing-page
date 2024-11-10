@@ -118,3 +118,30 @@ a {
     border: 3px solid #3882F6;
     border-radius: 8px;
 }
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 100px 150px 100px 150px;
+    gap: 10px;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-credit {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 20px;
+    font-weight: bold;
+}

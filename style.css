@@ -124,7 +124,7 @@ a {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding: 100px 150px 100px 150px;
+    padding: 100px 165px 100px 165px;
     gap: 10px;
 }
 
@@ -144,4 +144,42 @@ a {
     justify-content: end;
     font-size: 20px;
     font-weight: bold;
+    padding-right: 30px;
+}
+
+.action-container {
+    background-color: #3882F6;
+    display: flex;
+    margin: 100px 100px 100px 100px;
+    padding: 50px 100px;
+    border-radius: 8px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-size: 18px;
+    color: #F9FAF8DD;
+}
+
+.call-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+
+.sign-up-button2 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 550;
+    border: 3px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 24px;
+    width: 130px;
 }
